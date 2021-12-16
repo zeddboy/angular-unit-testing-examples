@@ -9,4 +9,7 @@ export class NavComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit() {}
+	demo()
+	{console.log("new function");
+	}
 }
