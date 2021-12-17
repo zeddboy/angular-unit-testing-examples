@@ -25,6 +25,7 @@ export class TodosComponent implements OnInit {
 			t => this.todos.push(t),
 			err => (this.message = err)
 		);
+		console.log("add log method");
 	}
 
 	delete(id) {
