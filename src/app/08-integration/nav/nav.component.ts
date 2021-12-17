@@ -11,6 +11,7 @@ export class NavComponent implements OnInit {
 	ngOnInit() {}
 	demo()
 	{console.log("new function");
+	 console.log("added one more line");
 	}
 	test(a:any,b:string){
 		console.log("inside test");}
