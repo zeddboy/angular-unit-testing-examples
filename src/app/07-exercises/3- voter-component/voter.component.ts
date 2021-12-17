@@ -69,6 +69,7 @@ export class VoterComponent {
 	}
 
 	get totalVotes(): number {
+		console.log("new line added");
 		return this.othersVote + this.myVote;
 	}
 }
